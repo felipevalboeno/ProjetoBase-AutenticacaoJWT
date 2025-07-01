@@ -1,0 +1,21 @@
+#endpoint para cadastro de usuario
+POST http://localhost:8080/api/usuarios
+Content-Type: application/json
+
+{
+    "email": "ang@gmail.com",
+    "nome": "ang",
+    "senha": "123456"
+
+}
+
+###
+#endpoint para login de usuario
+POST http://localhost:8080/api/usuarios/login
+Content-Type: application/json
+
+{
+    "email": "ang@gmail.com",
+    "senha": "123456"
+
+}
