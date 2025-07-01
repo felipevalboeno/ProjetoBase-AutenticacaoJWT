@@ -1,4 +1,4 @@
-package com.novidades.gestaodeprojetos.services;
+package com.novidades.gestaodeprojetos.security;
 
 
 import java.util.Date;
